@@ -1,8 +1,8 @@
 # artificial-inteligence-algorithms
 
-<img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif"/>
-<img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif"/>
-<img src="https://github.com/freezpmark/dash-app-naive-bayes-visualization/blob/3381c90b690d2adfca69e156bec1e1e15928f726/image_dash_app.jpg"/>
+<img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif" width="300"/>
+<img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif" width="300"/>
+<img src="https://github.com/freezpmark/dash-app-naive-bayes-visualization/blob/3381c90b690d2adfca69e156bec1e1e15928f726/image_dash_app.jpg" width="300"/>
 
 Produces GIF animation that visualizes: creation of map in Zen garden approach, shortest path visiting all destinations, deducing new facts from facts that are being collected at certain destinations. The intention behind this project was to improve Python coding skills while practising implementation of some of the most widely mentioned algorithms in AI that don't use machine learning techniques.
 
