@@ -15,6 +15,7 @@ Discord music bot supported with Slash Commands and Requests tracking. It has cl
 config change  
 reqs change  
 write to .env file: TOKEN=YOUR BOT TOKEN | create env file (REF!)  
+google sheets setup  
 
 ## 🔥 Features:
  - enables searching and playing tracks from YouTube
