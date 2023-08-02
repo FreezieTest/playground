@@ -12,10 +12,9 @@ Discord music bot supported with Slash Commands and Requests tracking. It has cl
  - `pip install -r requirements.txt`
  - `python main.py`
 
-config change
-reqs change
-write to .env file: TOKEN=YOUR BOT TOKEN
-create env file (REF!)
+config change  
+reqs change  
+write to .env file: TOKEN=YOUR BOT TOKEN | create env file (REF!)  
 
 ## 🔥 Features:
  - enables searching and playing tracks from YouTube
