@@ -1,6 +1,6 @@
 # machine-learning-cheatsheets
 
-My cheatsheets for Python and Machine Learning content that includes:
+My cheatsheets for Python and Machine Learning content which includes:
  - all NumPy and Pandas operations that were used in DeepLearning.AI courses
  - all Python operations that were used in book "Programming in Python 3" by Mark Summerfield
 
