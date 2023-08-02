@@ -7,8 +7,8 @@ Produces GIF animation that visualizes: creation of map in Zen garden approach, 
  - `pip install -r requirements.txt`
  - `python main.py`
 
-You can also run this on Discord. It uses ai_algo.py as cog file. To run it, call `<yourPrefix>run_ai`. The GIF file will be shown in the text channel where the command has ran.  
-Running it causes to execute feature scripts below in order.
+You can also run this on Discord. It uses `ai_algo.py` as cog file. To run it, call `<yourPrefix>run_ai`. The GIF file will be shown in the text channel where the command has ran.  
+Running the `main.py` or `ai_algo.py` causes to execute feature scripts below in order.
 
 ## Features:
  - [stage_1_ai_evolution](#stage_1_ai_evolution)
