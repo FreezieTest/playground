@@ -1,8 +1,8 @@
 # artificial-inteligence-algorithms
 
 <div>
- <img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif" width="300"/>
- <img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif" width="600"/>
+ <img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif" width="450"/>
+ <img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif" width="450"/>
 </div>
 
 <div align="center">
