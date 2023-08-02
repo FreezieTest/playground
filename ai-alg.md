@@ -1,5 +1,5 @@
 # artificial-inteligence-algorithms
-Created an app that produces GIF animation that visualizes: creation of map in Zen garden approach, shortest path visiting all destinations, deducing new facts from facts that are being collected at certain destinations. The intention behind this project was to improve Python coding skills while practising implementation of some of the most widely mentioned algorithms in AI that don't use machine learning techniques. (Python)
+Produces GIF animation that visualizes: creation of map in Zen garden approach, shortest path visiting all destinations, deducing new facts from facts that are being collected at certain destinations. The intention behind this project was to improve Python coding skills while practising implementation of some of the most widely mentioned algorithms in AI that don't use machine learning techniques. (Python)
 
 ## Usage:
  - `git clone https://github.com/freezpmark/artificial-intelligence-algorithms`
@@ -7,7 +7,7 @@ Created an app that produces GIF animation that visualizes: creation of map in Z
  - `pip install -r requirements.txt`
  - `python main.py`
 
-You can also run this on Discord. It uses ai_algo.py as cog file. To run it, call `<yourPrefix>run_ai`. The GIF file will be shown in the text channel where the command has ran.
+You can also run this on Discord. It uses ai_algo.py as cog file. To run it, call `<yourPrefix>run_ai`. The GIF file will be shown in the text channel where the command has ran. Running it causes to execute these feature scripts in order.
 
 ## Features:
  - [stage_1_ai_evolution](#stage_1_ai_evolution)
@@ -18,7 +18,7 @@ You can also run this on Discord. It uses ai_algo.py as cog file. To run it, cal
 ### stage_1_ai_evolution
 The task is to rake the sand on the entire Zen garden. Character always starts at the edge of the garden and leaves straight shaping path until it meets another edge or obstacle. On the edge, character can walk as he pleases. If it comes to an obstacle - wall or raked sand - he has to turn around, if he is not able to, raking is over.  
 
-##### <b>Parameters:</b>
+#### <b>Parameters:</b>
  - begin_create - defines whether to start creating new maps from query, walled map or terrained to propertied map
  - query - defines map size with walls
  - fname - name of the text file into which the map will be created
@@ -28,7 +28,7 @@ The task is to rake the sand on the entire Zen garden. Character always starts a
 ### stage_2_ai_pathfinding
 Finds the shortest path to visit all nodes. First node to visit is the black node for which A* algorithm is used. Then, we run Dijkstra's algorithm for each blue node to find the shortest distances to all other blue nodes. To find the shortest path between all blue nodes we can use either greedy Naive permutation or Held–Karp algorithm which is alot faster.
 
-##### <b>Parameters:</b>
+#### <b>Parameters:</b>
  - movement - defines options of movement
  - climb - defines the way how the distance between adjacent nodes is calculated
  - algorithm - choses which algorithm to use to find the shortest path between blue nodes
@@ -37,7 +37,7 @@ Finds the shortest path to visit all nodes. First node to visit is the black nod
 ### stage_3_ai_forward_chain (Production rule system)
 Production system belongs to knowledge systems that use data to create new knowledge. In this case, it deduces new facts from facts that are being collected in each blue node. Deduction is defined by set of rules that are loaded from the text file.
 
-##### <b>Parameters:</b>
+#### <b>Parameters:</b>
  - save_fname_facts - name of file into which facts will be saved
  - load_fname_facts - name of file from which we load facts
  - load_fname_rules - name of file from which we load rules
