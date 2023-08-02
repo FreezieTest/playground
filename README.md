@@ -3,7 +3,7 @@
 <img>
 
 <text-descr>
-Discord music bot supported with Slash Commands and Requests tracking. It has clean interface and is easy to run it yourself!
+Discord music bot supported with Slash Commands and Requests tracking. It has clean interface and is easy to run!
 
 ## 🧑‍💻 Usage:
  - install Python
