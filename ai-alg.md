@@ -1,4 +1,8 @@
 # artificial-inteligence-algorithms
+
+<img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif"/>
+<img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif"/>
+
 Produces GIF animation that visualizes: creation of map in Zen garden approach, shortest path visiting all destinations, deducing new facts from facts that are being collected at certain destinations. The intention behind this project was to improve Python coding skills while practising implementation of some of the most widely mentioned algorithms in AI that don't use machine learning techniques.
 
 ## Usage:
