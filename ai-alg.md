@@ -1,7 +1,17 @@
 # artificial-inteligence-algorithms
 
-<img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif" width="300"/>
-<img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif" width="700"/>
+<div>
+ <img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif" width="300"/>
+ <img src="https://github.com/freezpmark/artificial-intelligence-algorithms/blob/f8a2e02f4a7c3d437237567e3071a653dc162593/queried.gif" width="600"/>
+</div>
+
+<div align="center">
+  <div style="display: flex;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&show_icons=true&title_color=ffffff&icon_color=34abeb&text_color=daf7dc&bg_color=151515" style="vertical-align: top;" />
+    <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&title_color=ffffff&icon_color=34abeb&text_color=daf7dc&bg_color=151515" />
+  </div>
+</div>
+
 
 Produces GIF animation that visualizes: creation of map in Zen garden approach, shortest path visiting all destinations, deducing new facts from facts that are being collected at certain destinations. The intention behind this project was to improve Python coding skills while practising implementation of some of the most widely mentioned algorithms in AI that don't use machine learning techniques.
 
