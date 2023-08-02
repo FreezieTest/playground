@@ -1,6 +1,6 @@
 CHEAT SHEETS
 
-Personal learning resources from my school and DeepLearning.AI's courses.
+Learning resources from university and DeepLearning.AI's courses.
 
 There are also cheatsheets for Python and Machine Learning content:
  - Python uses all operations that were used in <Book Name>
