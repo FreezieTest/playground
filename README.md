@@ -12,7 +12,7 @@ Also includes the main template function that I use in my personal bot.
  - `pip install -r requirements.txt`
  - You have to get Google Sheets credentials in json (tutorial for getting in [here](https://lcalcagni.medium.com/how-to-manipulate-google-spreadsheets-using-python-b15657e6ed0d))
  - You have to create `.env` file in the root directory and set these variables:
-```py
+```env
 GUILD_ID=133713371337133713              # Your server ID
 glados_TOKEN=ABCDEFGHIJKLMNOPRS          # Your bot token
 glados_ID=123456789012345678             # Your bot client ID
