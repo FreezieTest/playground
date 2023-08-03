@@ -13,51 +13,11 @@ In config.json you can set these parameters:
    - prefix (for commands that deal with request tracking)
 
 You have to create .env file in the root directory and set these variables:
- - GOOGLE_CREDENTIALS
- - SERVER_ID
- - glados_TOKEN
- - glados_ID
-
-```bash
-TOKEN="." # Your bot token
-PREFIX="!" # Your prefix
-OWNER_IDS="859640640640640640, 859640640640640640" # Your ID
-CLIENT_ID="960072976412340254" # Your bot client ID
-GUILD_ID="859640640640640640" # Your server ID (if you want to use it for a single server)
-PRODUCTION="true" # "true" for production
-DATABASE_URL="mongodb+srv://Blacky:xxxxxxxxxxxx" # Your MongoDB URL
-LAVALINK_URL="lava.moebot.xyz:443" # Your lavalink url
-LAVALINK_AUTH="youshallnotpass" # Your lavalink password
-LAVALINK_NAME="Blacky" # Your lavalink name
-LAVALINK_SECURE= "true" # true for secure lavalink
-```
-
 ```py
-TOKEN="." # Your bot token
-PREFIX="!" # Your prefix
-OWNER_IDS="859640640640640640, 859640640640640640" # Your ID
-CLIENT_ID="960072976412340254" # Your bot client ID
-GUILD_ID="859640640640640640" # Your server ID (if you want to use it for a single server)
-PRODUCTION="true" # "true" for production
-DATABASE_URL="mongodb+srv://Blacky:xxxxxxxxxxxx" # Your MongoDB URL
-LAVALINK_URL="lava.moebot.xyz:443" # Your lavalink url
-LAVALINK_AUTH="youshallnotpass" # Your lavalink password
-LAVALINK_NAME="Blacky" # Your lavalink name
-LAVALINK_SECURE= "true" # true for secure lavalink
-```
-
-```python
-TOKEN="." # Your bot token
-PREFIX="!" # Your prefix
-OWNER_IDS="859640640640640640, 859640640640640640" # Your ID
-CLIENT_ID="960072976412340254" # Your bot client ID
-GUILD_ID="859640640640640640" # Your server ID (if you want to use it for a single server)
-PRODUCTION="true" # "true" for production
-DATABASE_URL="mongodb+srv://Blacky:xxxxxxxxxxxx" # Your MongoDB URL
-LAVALINK_URL="lava.moebot.xyz:443" # Your lavalink url
-LAVALINK_AUTH="youshallnotpass" # Your lavalink password
-LAVALINK_NAME="Blacky" # Your lavalink name
-LAVALINK_SECURE= "true" # true for secure lavalink
+GOOGLE_CREDENTIALS="."             # Your bot token
+GUILD_ID="!"                       # Your server ID
+glados_TOKEN="859640640640640640"  # Your bot token
+glados_ID="960072976412340254"     # Your bot client ID
 ```
 
 google sheets setup:
