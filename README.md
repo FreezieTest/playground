@@ -62,4 +62,4 @@ There are also some optional variable settings you can set in `config.json`:
 ## 👀 Example
 (There will be a gif file added soon that will showcase the usage)  
 
-The app has not yet been fully tested
+The app has not yet been fully tested and there are still a few TODOs to do in the code.
