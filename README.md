@@ -14,13 +14,11 @@ In config.json you can set these parameters:
 
 You have to create `.env` file in the root directory and set these variables:
 ```py
-GUILD_ID=              # Your server ID
-glados_TOKEN=          # Your bot token
-glados_ID=             # Your bot client ID
-GOOGLE_CREDENTIALS={}  # Google Sheets credendials
+GUILD_ID=133713371337133713              # Your server ID
+glados_TOKEN=ABCDEFGHIJKLMNOPRS          # Your bot token
+glados_ID=123456789012345678             # Your bot client ID
+GOOGLE_CREDENTIALS={"type": "...", ...}  # Google Sheets credendials
 ```
-
-google sheets setup:
 
 ## 🧑‍💻 Usage:
  - install Python
