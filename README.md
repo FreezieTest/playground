@@ -1,9 +1,24 @@
 # music-discord-bot
 
-<img>
+!!!<img>!!!
 
-<text-descr>
-Discord music bot supported with Slash Commands and Requests tracking. It has clean interface and is easy to run!
+Discord music bot supported with Slash Commands and Requests tracking. It has clean interface and is easy to run!  
+Also has the main template function that I use in my personal bot.
+
+config.json:
+ - timezone
+ - bots_settings["glados"]
+   - activity
+   - cog_blacklist
+   - prefix
+
+.env:
+ - GOOGLE_CREDENTIALS
+ - SERVER_ID
+ - glados_TOKEN
+ - glados_ID
+
+google sheets setup:
 
 ## 🧑‍💻 Usage:
  - install Python
@@ -12,14 +27,14 @@ Discord music bot supported with Slash Commands and Requests tracking. It has cl
  - `pip install -r requirements.txt`
  - `python main.py`
 
-config change  
-reqs change  
-write to .env file: TOKEN=YOUR BOT TOKEN | create env file (REF!)  
-google sheets setup  
 
 ## 🔥 Features:
  - enables searching and playing tracks from YouTube
- - supports playlists
+ - supports playing playlist or picking tracks from it
+ - real-time audio player that is being updated before every track
+ - button interactivity with the audio player
+ - track request tracking system integrated with google sheets
+ - track request summarization over certain periods of time
 
 ## 📚 Commands
 <details><summary>Click to View Commands</summary>
@@ -31,18 +46,21 @@ google sheets setup
 | ⏭️         | Skips the current song                     |                                                           |
 | 🔁         | Loops the queue                            |                                                           |
 | 🔂         | Loops currently playing track              |                                                           |
-| 🔀         | Shuffles the queue of songs that weren't yet played           |                                        |
+| 🔀         | Shuffles the queue of songs that weren't yet played          |                                         |
 | `play`     | Searches and plays/adds the track into queue                  | `search`: search prompt / URL          |
 | `playlist` | Allows you to pick tracks from 25 last songs in the playlist  | `playlist_url`: url of playlist        |
-| `search`   | Gives you list of tracks to choose from the search prompt     |  `search`: search prompt               |
+| `search`   | Gives you list of tracks to choose from the search prompt     | `search`: search prompt                |
 | `seek`     | Gets into certain timestamp in currently playing track        | `second`: timestamp in seconds         |
 | `jump`     | Skips to a specific song in the queue       | `index`: index number in the queue                       |
 | `remove`   | Removes a song from the queue               | `index`: index number in the queue                       |
-| `volume`   | Changes the volume 10% is default)          | `volume`: from 1 to 100 (in %)                           |
+| `volume`   | Changes the volume (10% is default)         | `volume`: from 1 to 100 (in %)                           |
 | `clear`    | Clears the queue                            | `song`: The song number                                  |
 | `history`  | Saves all requests into google sheets log   | (use prefix) `limit`: amount of msgs to take into account|
 | `create_stats` | Creates stats out from the requests log | (use prefix)                                             |
 </details>
 
 ## 👀 Example
-<gif image>
+!!!<gif>!!!
+
+config change  
+reqs change  
