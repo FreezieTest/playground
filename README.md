@@ -1,7 +1,7 @@
 # music-discord-bot
 
-<img src="https://github.com/freezpmark/music-discord-bot/blob/7b69b6dab44aa579d7c1c8cc3daea802cf0c8083/screenshot.png" height="250"/>
-<img src="https://github.com/FreezieTest/playground/blob/a00f5fc541818139b3cf78a85dbba947ed4f9913/Untitled1.png" height="250"/>
+<img src="https://github.com/freezpmark/music-discord-bot/blob/7b69b6dab44aa579d7c1c8cc3daea802cf0c8083/screenshot.png" height="350"/>
+<img src="https://github.com/FreezieTest/playground/blob/a00f5fc541818139b3cf78a85dbba947ed4f9913/Untitled1.png" height="350"/>
 
 Discord music bot supported with Slash Commands and Requests tracking. It has clean interface and is easy to run!  
 Also has the main template function that I use in my personal bot.
