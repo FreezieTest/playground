@@ -1,6 +1,6 @@
 # music-discord-bot
 
-!!!<img>!!!
+[screenshot](https://github.com/freezpmark/music-discord-bot/blob/7b69b6dab44aa579d7c1c8cc3daea802cf0c8083/screenshot.png)
 
 Discord music bot supported with Slash Commands and Requests tracking. It has clean interface and is easy to run!  
 Also has the main template function that I use in my personal bot.
@@ -59,7 +59,6 @@ There are also some optional variable settings you can set in `config.json`:
 </details>
 
 ## 👀 Example
-!!!<gif>!!!
+(There will be a gif file added soon that will showcase the usage)  
 
-config change  
-reqs change  
+The app has not yet been fully tested
