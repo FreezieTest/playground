@@ -10,14 +10,14 @@ Also includes the main template function that I use in my personal bot.
  - `git clone https://github.com/freezpmark/music-discord-bot`
  - `cd music-discord-bot`
  - `pip install -r requirements.txt`
+ - You have to get Google Sheets credentials in json file (tutorial for getting in [here](https://lcalcagni.medium.com/how-to-manipulate-google-spreadsheets-using-python-b15657e6ed0d)
  - You have to create `.env` file in the root directory and set these variables:
 ```py
 GUILD_ID=133713371337133713              # Your server ID
 glados_TOKEN=ABCDEFGHIJKLMNOPRS          # Your bot token
 glados_ID=123456789012345678             # Your bot client ID
-GOOGLE_CREDENTIALS={"type": "...", ...}  # Your Google Sheets credendials in json (tutorial for getting it [here](https://lcalcagni.medium.com/how-to-manipulate-google-spreadsheets-using-python-b15657e6ed0d)
+GOOGLE_CREDENTIALS={"type": "...", ...}  # Your Google Sheets credendials in json
 ```
- - `GOOGLE_CREDENTIALS={"type": "...", ...}` - Your 
  - `python main.py`
 
 There are also some optional variable settings you can set in `config.json`:
