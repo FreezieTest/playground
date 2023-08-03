@@ -1,6 +1,6 @@
 # music-discord-bot
 
-<img src="https://github.com/freezpmark/music-discord-bot/blob/5ee04c49f125e964deecb80b83e5debce359308b/screenshot1.png" height="400"/>
+<img src="https://github.com/freezpmark/music-discord-bot/blob/961c5fbe201b0583c3e7f1613efda06fa3ac8274/screenshot.png" height="400"/>
 
 Discord Music bot supported with Slash Commands and Requests tracking. It has clean interface and is easy to run!  
 Also includes the main template function that I use in my personal bot.
@@ -15,8 +15,9 @@ Also includes the main template function that I use in my personal bot.
 GUILD_ID=133713371337133713              # Your server ID
 glados_TOKEN=ABCDEFGHIJKLMNOPRS          # Your bot token
 glados_ID=123456789012345678             # Your bot client ID
-GOOGLE_CREDENTIALS={"type": "...", ...}  # Google Sheets credendials
+GOOGLE_CREDENTIALS={"type": "...", ...}  # Your Google Sheets credendials in json (tutorial for getting it [here](https://lcalcagni.medium.com/how-to-manipulate-google-spreadsheets-using-python-b15657e6ed0d)
 ```
+ - `GOOGLE_CREDENTIALS={"type": "...", ...}` - Your 
  - `python main.py`
 
 There are also some optional variable settings you can set in `config.json`:
