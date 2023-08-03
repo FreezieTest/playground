@@ -10,7 +10,7 @@ Also has the main template function that I use in my personal bot.
  - `git clone https://github.com/freezpmark/music-discord-bot`
  - `cd music-discord-bot`
  - `pip install -r requirements.txt`
-You have to create `.env` file in the root directory and set these variables:
+ - You have to create `.env` file in the root directory and set these variables:
 ```py
 GUILD_ID=133713371337133713              # Your server ID
 glados_TOKEN=ABCDEFGHIJKLMNOPRS          # Your bot token
