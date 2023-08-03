@@ -22,7 +22,6 @@ google sheets setup
  - supports playlists
 
 ## 📚 Commands
-
 <details><summary>Click to View Commands</summary>
 
 | Name        | Description                               | Options                                                   |
@@ -32,14 +31,14 @@ google sheets setup
 | ⏭️         | Skips the current song                     |                                                           |
 | 🔁         | Loops the queue                            |                                                           |
 | 🔂         | Loops currently playing track              |                                                           |
-| 🔀         | Shuffles the queue of songs that were not played              |                                        |
-| `play`     | Searches and plays/adds the track into queue                  | search prompt / URL                    |
+| 🔀         | Shuffles the queue of songs that weren't yet played           |                                        |
+| `play`     | Searches and plays/adds the track into queue                  | `search`: search prompt / URL          |
 | `playlist` | Allows you to pick tracks from 25 last songs in the playlist  | `playlist_url`: url of playlist        |
 | `search`   | Gives you list of tracks to choose from the search prompt     |  `search`: search prompt               |
 | `seek`     | Gets into certain timestamp in currently playing track        | `second`: timestamp in seconds         |
 | `jump`     | Skips to a specific song in the queue       | `index`: index number in the queue                       |
-| `volume`   | Changes the volume [10% default]            | `volume`: 1-100 in %                                     |
 | `remove`   | Removes a song from the queue               | `index`: index number in the queue                       |
+| `volume`   | Changes the volume 10% is default)          | `volume`: from 1 to 100 (in %)                           |
 | `clear`    | Clears the queue                            | `song`: The song number                                  |
 | `history`  | Saves all requests into google sheets log   | (use prefix) `limit`: amount of msgs to take into account|
 | `create_stats` | Creates stats out from the requests log | (use prefix)                                             |
