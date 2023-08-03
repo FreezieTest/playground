@@ -21,12 +21,23 @@ GOOGLE_CREDENTIALS={"type": "...", ...}  # Your Google Sheets credendials in jso
  - `python main.py`
 
 There are also some optional variable settings you can set in `config.json`:
+```json
+{
+    "timezone": "Europe/Vienna",  # for request tracking
+    "bots_settings": {
+        "glados": {
+            "activity": "/play",  # defines the status of the bot
+            "cog_blacklist": ["ai_algo", "korean"],  # defines which cogs should be ignored
+            "prefix": "?"  # for commands that deal with request tracking
+        },
+    }
+}
+```
  - `timezone` (for request tracking)
  - `bots_settings["glados"]`:
    - `activity` (defines the status of the bot)
    - `cog_blacklist` (defines which cogs should be ignored)
    - `prefix` (for commands that deal with request tracking)
-
 
 ## 🔥 Features:
  - enables searching and playing tracks from YouTube
