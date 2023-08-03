@@ -5,18 +5,46 @@
 Discord music bot supported with Slash Commands and Requests tracking. It has clean interface and is easy to run!  
 Also has the main template function that I use in my personal bot.
 
-config.json:
- - timezone
- - bots_settings["glados"]
-   - activity
-   - cog_blacklist
-   - prefix
+In config.json you can set these parameters:
+ - timezone (for request tracking)
+ - bots_settings["glados"]:
+   - activity (defines the status of the bot)
+   - cog_blacklist (defines which cogs should be ignored)
+   - prefix (for commands that deal with request tracking)
 
-.env:
+You have to create .env file in the root directory and set these variables:
  - GOOGLE_CREDENTIALS
  - SERVER_ID
  - glados_TOKEN
  - glados_ID
+
+```bash
+TOKEN="." # Your bot token
+PREFIX="!" # Your prefix
+OWNER_IDS="859640640640640640, 859640640640640640" # Your ID
+CLIENT_ID="960072976412340254" # Your bot client ID
+GUILD_ID="859640640640640640" # Your server ID (if you want to use it for a single server)
+PRODUCTION="true" # "true" for production
+DATABASE_URL="mongodb+srv://Blacky:xxxxxxxxxxxx" # Your MongoDB URL
+LAVALINK_URL="lava.moebot.xyz:443" # Your lavalink url
+LAVALINK_AUTH="youshallnotpass" # Your lavalink password
+LAVALINK_NAME="Blacky" # Your lavalink name
+LAVALINK_SECURE= "true" # true for secure lavalink
+```
+
+```
+TOKEN="." # Your bot token
+PREFIX="!" # Your prefix
+OWNER_IDS="859640640640640640, 859640640640640640" # Your ID
+CLIENT_ID="960072976412340254" # Your bot client ID
+GUILD_ID="859640640640640640" # Your server ID (if you want to use it for a single server)
+PRODUCTION="true" # "true" for production
+DATABASE_URL="mongodb+srv://Blacky:xxxxxxxxxxxx" # Your MongoDB URL
+LAVALINK_URL="lava.moebot.xyz:443" # Your lavalink url
+LAVALINK_AUTH="youshallnotpass" # Your lavalink password
+LAVALINK_NAME="Blacky" # Your lavalink name
+LAVALINK_SECURE= "true" # true for secure lavalink
+```
 
 google sheets setup:
 
