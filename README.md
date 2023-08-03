@@ -12,12 +12,12 @@ In config.json you can set these parameters:
    - cog_blacklist (defines which cogs should be ignored)
    - prefix (for commands that deal with request tracking)
 
-You have to create .env file in the root directory and set these variables:
+You have to create `.env` file in the root directory and set these variables:
 ```py
-GOOGLE_CREDENTIALS="." # Your bot token
 GUILD_ID=              # Your server ID
 glados_TOKEN=          # Your bot token
 glados_ID=             # Your bot client ID
+GOOGLE_CREDENTIALS={}  # Google Sheets credendials
 ```
 
 google sheets setup:
