@@ -2,8 +2,8 @@
 
 <img src="https://github.com/freezpmark/music-discord-bot/blob/5ee04c49f125e964deecb80b83e5debce359308b/screenshot1.png" height="400"/>
 
-Discord music bot supported with Slash Commands and Requests tracking. It has clean interface and is easy to run!  
-Also has the main template function that I use in my personal bot.
+Discord Music bot supported with Slash Commands and Requests tracking. It has clean interface and is easy to run!  
+Also includes the main template function that I use in my personal bot.
 
 ## 🧑‍💻 Usage:
  - install Python
