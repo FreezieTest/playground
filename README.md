@@ -5,13 +5,11 @@
 Discord music bot supported with Slash Commands and Requests tracking. It has clean interface and is easy to run!  
 Also has the main template function that I use in my personal bot.
 
-In config.json you can set these parameters:
- - timezone (for request tracking)
- - bots_settings["glados"]:
-   - activity (defines the status of the bot)
-   - cog_blacklist (defines which cogs should be ignored)
-   - prefix (for commands that deal with request tracking)
-
+## 🧑‍💻 Usage:
+ - install Python
+ - `git clone https://github.com/freezpmark/music-discord-bot`
+ - `cd music-discord-bot`
+ - `pip install -r requirements.txt`
 You have to create `.env` file in the root directory and set these variables:
 ```py
 GUILD_ID=133713371337133713              # Your server ID
@@ -19,13 +17,14 @@ glados_TOKEN=ABCDEFGHIJKLMNOPRS          # Your bot token
 glados_ID=123456789012345678             # Your bot client ID
 GOOGLE_CREDENTIALS={"type": "...", ...}  # Google Sheets credendials
 ```
-
-## 🧑‍💻 Usage:
- - install Python
- - `git clone https://github.com/freezpmark/music-discord-bot`
- - `cd music-discord-bot`
- - `pip install -r requirements.txt`
  - `python main.py`
+
+There are also some optional variable settings you can set in `config.json`:
+ - `timezone` (for request tracking)
+ - `bots_settings["glados"]`:
+   - `activity` (defines the status of the bot)
+   - `cog_blacklist` (defines which cogs should be ignored)
+   - `prefix` (for commands that deal with request tracking)
 
 
 ## 🔥 Features:
