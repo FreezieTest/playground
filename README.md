@@ -33,11 +33,6 @@ There are also some optional variable settings you can set in `config.json`:
     }
 }
 ```
- - `timezone` (for request tracking)
- - `bots_settings["glados"]`:
-   - `activity` (defines the status of the bot)
-   - `cog_blacklist` (defines which cogs should be ignored)
-   - `prefix` (for commands that deal with request tracking)
 
 ## 🔥 Features:
  - enables searching and playing tracks from YouTube
