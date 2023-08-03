@@ -23,12 +23,12 @@ GOOGLE_CREDENTIALS={"type": "...", ...}  # Your Google Sheets credendials in jso
 There are also some optional variable settings you can set in `config.json`:
 ```json
 {
-    "timezone": "Europe/Vienna",  # for request tracking
+    "timezone": "Europe/Vienna",
     "bots_settings": {
         "glados": {
-            "activity": "/play",  # defines the status of the bot
-            "cog_blacklist": ["ai_algo", "korean"],  # defines which cogs should be ignored
-            "prefix": "?"  # for commands that deal with request tracking
+            "activity": "/play",
+            "cog_blacklist": [],
+            "prefix": "?"
         },
     }
 }
