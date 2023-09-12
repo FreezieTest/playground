@@ -8,3 +8,6 @@ Provides interactive visualizations for <b>text classification</b> using the <b>
  - `cd dash-app-naive-bayes-visualization`
  - `pip install -r requirements.txt`
  - `python dashWEB_eng.py`
+
+<iframe src="https://freezpmark-dashapp.odooserver.sk/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="no" marginheight="0px" marginwidth="0px" height="3700px" width="1700px" allowfullscreen="">
+</iframe>
